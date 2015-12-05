@@ -27,11 +27,11 @@ import javax.swing.JOptionPane;
  */
 public class GambleBlocker {
 
-    private static final String HOSTS_FILE = System.getenv("WINDIR") + "\\System32\\drivers\\etc\\hosts"; //actual path for Windows OS live system
+    private static final String HOSTS_FILE = System.getenv("WINDIR") + "\\System32\\drivers\\etc\\hosts";
     
-    private static final String HOSTS_NEW = "C:\\Program Files\\GambleBlocker\\hosts.new"; //actual path for Windows OS live system
+    private static final String HOSTS_NEW = "C:\\Program Files\\GambleBlocker\\hosts.new";
     
-    private static final String HOSTS_BACKUP = "C:\\Program Files\\GambleBlocker\\hosts.backup"; //actual path for Windows OS live system
+    private static final String HOSTS_BACKUP = "C:\\Program Files\\GambleBlocker\\hosts.backup";
     
     public static void main(String[] args) throws IOException, InterruptedException{
         createApplicationDirectoryAndSaveDefaultHost();
