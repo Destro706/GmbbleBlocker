@@ -1,0 +1,2 @@
+# GambleBlocker
+block gamble sites
